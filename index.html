@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>🂠</title>
+	</head>
+	<body>
+
+		<h1>Let's see where fate takes you.</h1>
+		<h1>Press the button to begin.</h1>
+		
+		<a href="#" onclick="goToRandomPage()">Enter the labyrinth</a>
+
+		<script>
+		function goToRandomPage() {
+		  const pages = ["S.html", "H.Html", "D.html", "C.html"];
+		  const randomPage = pages[Math.floor(Math.random() * pages.length)];
+		  window.location.href = randomPage;
+		}
+      
+		</script>
+	</body>
+</html>
